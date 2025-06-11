@@ -47,6 +47,49 @@ h6 {
     font-size: inherit;
     font-weight: inherit
 }
+.top-left-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    background: linear-gradient(90deg,#1d82aa, #2f61cd, #193c95, #1a137f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+}
+.top-right-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    background: linear-gradient(90deg,#1a137f,#193c95,#2f61cd,#1d82aa );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    height:70px;
+    min-width: 100px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(201, 211, 201);
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-transform: capitalize;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    border-radius: 112px;
+    padding: 7px 24px;
+    transition: all 0.2s ease 0s;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+}
 
 a {
     color: inherit;
